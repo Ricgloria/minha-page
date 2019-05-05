@@ -141,11 +141,11 @@ footer p:first-child{
         overflow: hidden;
     }
     .principal{
-        height: 60%;
+        height: 55%;
         width: 80%;
     }
     .eu img{
-        height: 80%;
+        height: 75%;
         width: 40%;
         margin: 10% auto auto auto;
     }
@@ -157,6 +157,7 @@ footer p:first-child{
         font-size: 140%;
     }
     footer p{
+        border-left: solid 1px rgba(240, 248, 255, .7);
         font-size: 35%;    
     }
 
