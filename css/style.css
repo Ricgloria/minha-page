@@ -137,6 +137,9 @@ footer p:first-child{
 }
 
 @media (max-width: 720px){
+    body{
+        overflow: hidden;
+    }
     .principal{
         height: 60vh;
         width: 85%;
