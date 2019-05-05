@@ -1,0 +1,157 @@
+body{
+    height: 100vh;
+    width: 100vw;
+    box-sizing: border-box;
+    background-image: url(palm-and-pier.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.principal{
+    border: 1px solid aliceblue;
+    height: 35em;
+    width: 35em;
+    box-sizing: border-box;
+    display: block;
+    margin: auto;
+    background-color: rgba(7, 7, 8, 0.95);
+    border-radius: 1%;
+    box-shadow: 5px 5px 15px #181717;  
+}
+div .eu{
+    display: flex;
+    height: 40%;
+    width: 100%;
+    box-sizing: border-box;
+}
+.eu img{
+    height: 80%;
+    width: 32%;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin: 5% auto auto auto;
+}
+
+.texto{
+    color: aliceblue;
+    opacity: .7;
+    text-align: center;
+    font-size: 80%;
+    line-height: 1.5em;
+}
+.texto h1{
+    font-size: 150%;
+}
+.icones{
+    display: inline;
+}
+
+.icones a{
+    text-decoration: none;
+    padding: 1%;
+}
+
+.icones a i{
+    color: aliceblue;
+    opacity: .7;
+    font-size: 220%;
+    transition: all .5s ease-out;
+}
+
+.icones a i:hover{
+    opacity: 10;
+    cursor: pointer;
+    color: white;
+}
+footer{
+    position: fixed; 
+    box-sizing: border-box;
+    bottom: 2%;
+    clear: both;   
+    width: 100%;
+    height: 15px;
+    text-align: right;
+}
+
+footer span{
+    padding-right: 5%;
+
+}
+footer p{
+    display: inline;
+    color: aliceblue;
+    opacity: .7;
+    font-size: 70%;
+    padding-left: 2px;
+    border-left: solid 2px rgba(240, 248, 255, .7);
+}
+footer p:first-child{
+    border-left: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+@-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; } 
+}
+@-moz-keyframes fadeIn {
+    0% { opacity: 0;}
+    100% { opacity: 1; }
+}
+@-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+.fadeIn {
+    -webkit-animation: fadeIn 2s ease-in-out;
+    -moz-animation: fadeIn 2s ease-in-out;
+    -o-animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 2s ease-in-out;
+}
+
+.fadeImg {
+    opacity:0;
+    -webkit-animation: fadeIn 2s ease-in-out;
+    -moz-animation: fadeIn 2s ease-in-out;
+    -o-animation: fadeIn 2s ease-in-out;
+    animation: fadeIn 2s ease-in-out; 
+    -webkit-animation-fill-mode:forwards;
+    -moz-animation-fill-mode:forwards;
+    -o-animation-fill-mode:forwards;
+    animation-fill-mode:forwards;
+}
+    
+.fadeImg-delay {	
+    -webkit-animation-delay:1s;
+    -moz-animation-delay:1s;
+    -o-animation-delay:1s;
+    animation-delay:1s;
+}
+
+@media (max-width: 720px){
+    .principal{
+        height: 60vh;
+        width: 85%;
+    }
+    .eu img{
+        height: 80%;
+        width: 40%;
+        margin: 10% auto auto auto;
+    }
+    .texto{
+        font-size: 55%;
+        padding-top: 5%;
+    }
+    .texto h1{
+        font-size: 130%;
+    }
+}
