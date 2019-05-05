@@ -4,7 +4,6 @@ body{
     background-image: url(palm-and-pier.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    position: relative;
     display: flex;
     font-family: 'Open Sans', sans-serif;
 }
@@ -15,7 +14,6 @@ body{
     height: 35em;
     width: 35em;
     box-sizing: border-box;
-    display: block;
     margin: auto;
     background-color: rgba(7, 7, 8, 0.95);
     border-radius: 1%;
@@ -146,7 +144,7 @@ footer p:first-child{
     }
     .eu img{
         height: 75%;
-        width: 38%;
+        width: %;
         margin: 10% auto auto auto;
     }
     .texto{
