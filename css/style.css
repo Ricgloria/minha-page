@@ -157,7 +157,7 @@ footer p:first-child{
         font-size: 140%;
     }
     footer p{
-        font-size: 40%;    
+        display: none;    
     }
 
     
