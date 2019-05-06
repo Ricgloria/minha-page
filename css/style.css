@@ -38,7 +38,7 @@ div .eu{
     opacity: .7;
     text-align: center;
     font-size: 80%;
-    line-height: 1.5em;
+    line-height: 1.6em;
 }
 .texto h1{
     font-size: 150%;
@@ -171,7 +171,7 @@ footer p:first-child{
         width: 23em;
     }
     .eu img{
-        height: 70%;
+        height: 75%;
         width: 35%;
         margin: auto;
     }    
@@ -186,13 +186,12 @@ footer p:first-child{
         width: 80%!important;
     }
     .eu img{
-        height: 70%;
-        width: 32%;
-        margin: 10% auto auto auto;
+        height: 75%;
+        width: 35%;
+        margin: auto;
     }
     .texto{
         font-size: 65%;
-        padding-top: 5%;
     }
     .texto h1{
         font-size: 150%;
