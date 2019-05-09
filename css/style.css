@@ -5,6 +5,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
+    background-position: right;
     font-family: 'Open Sans', sans-serif;
 }
 
